@@ -14,6 +14,7 @@ public class HotelServiceImpl implements HotelService {
 
     @Autowired
     private HotelRepository hotelRepository;
+
     @Override
     public Hotel createHotel(Hotel hotel) {
         Hotel hotel1 = hotelRepository.save(hotel);
